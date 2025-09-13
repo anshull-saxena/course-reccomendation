@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "DoneWithIt",
+    "name": "Course Recommendation",
     "slug": "DoneWithIt",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,16 +12,26 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.KaashviK.CourseRecommendation",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.KaashviK.CourseRecommendation"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e60ad3a1-14f2-4f68-a241-22d385de57d4"
+      }
     }
   }
 }
