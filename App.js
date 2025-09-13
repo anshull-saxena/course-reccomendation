@@ -270,8 +270,6 @@ const axiosInstance = axios.create({
 });
 const SERVER_URL = "https://backend-n9u5.onrender.com" ;
 
-
-
 export default function App() {
   const [error, setError] = useState("");
   const [singleDegree, setSingleDegree] = useState('None');

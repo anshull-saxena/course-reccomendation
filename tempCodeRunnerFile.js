@@ -265,7 +265,7 @@ const subjects = [
 const axiosInstance = axios.create({
   timeout: 10000, // 10 seconds timeout
 });
-const SERVER_URL = "http://192.168.0.108:2000"; // Change from localhost
+const SERVER_URL = "https://backend-n9u5.onrender.com"; // Change from localhost
 export default function App() {
   const [singleDegree, setSingleDegree] = useState('None');
   const [dualDegree, setDualDegree] = useState('None');
