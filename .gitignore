@@ -5,6 +5,22 @@ node_modules/
 
 # Expo
 .expo/
+.DS_Store
+
+# Build artifacts
+*.apk
+*.ipa
+*.aab
+*.zip
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code temp files
+tempCodeRunnerFile.*
 dist/
 web-build/
 
